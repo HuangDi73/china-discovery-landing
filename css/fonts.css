@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: 'AshleyCapitaliSofia';
+    src: url('../fonts/AshleyCapitaliSofia.eot');
+    src: url('../fonts/AshleyCapitaliSofia.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AshleyCapitaliSofia.woff2') format('woff2'),
+        url('../fonts/AshleyCapitaliSofia.woff') format('woff'),
+        url('../fonts/AshleyCapitaliSofia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
