@@ -75,7 +75,7 @@
 	font-size: 28px;
 	font-weight: 400;
 	padding: 0 0 0 48px;
-	background: url('../images/main-block/icon.svg') left / 34px no-repeat;
+	background: url('../images/main-block/flower.svg') left / 34px no-repeat;
 }
 
 /* ============================HEADER============================ */
@@ -210,8 +210,12 @@
 	}
 
 	.menu__flower {
-		margin: 50px 0 0 0;
+		margin: 70px 0 0 0;
 		text-align: center;
+	}
+
+	.menu__flower img {
+		width: 38px;
 	}
 
 	.menu__body._active {
@@ -222,7 +226,7 @@
 		flex-direction: column;
 		justify-content: center;
 		flex-wrap: nowrap;
-		margin: 10vh 0 0 0;
+		padding: 10vh 0 0 0;
 	}
 
 	.menu__item:not(:last-child) {
@@ -705,7 +709,9 @@
 
 @media (max-width: 480px) {
 	.avatar__logo-subtitle {
+		padding: 0 0 0 42px;
 		font-size: 18px;
+		background: url('../images/main-block/flower.svg') left / 26px no-repeat;
 	}
 
 	.avatar__body> :not(:last-child) {
@@ -1613,6 +1619,8 @@
 	.contacts__logo-subtitle {
 		font-size: 18px;
 		margin: 0 0 20px 0;
+		padding: 0 0 0 40px;
+		background: url('../images/main-block/flower.svg') left / 26px no-repeat;
 	}
 
 	.contacts__additions {

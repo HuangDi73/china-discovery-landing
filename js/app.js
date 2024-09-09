@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function handleScreenChange(event) {
         if (event.matches) {
-            // Если экран меньше 768px, перемещаем в блоки
+            // Если экран меньше 1040px, перемещаем в блоки
             historyImages.classList.add("history__images");
             historyImage1.classList.add(
                 "history__image1",
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
             historyImage.appendChild(monkeyImage);
             historyBottom.style["display"] = "none";
         } else {
-            // Если экран больше или равен 768px, перемещаем блоки обратно
+            // Если экран больше или равен 1040px, перемещаем блоки обратно
             historyBottom.appendChild(housesImage);
             historyBottom.prepend(historyCircle);
             historyLeft.prepend(historyTitles);
